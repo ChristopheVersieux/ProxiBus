@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Bus en Poche</string>
+
+    <string name="section_around">A proximité</string>
+    <string name="section_fav">Favoris</string>
+    <string name="section_planner">Itinéraire</string>
+    <string name="action_search">Recherche</string>
+    <string name="location">MODE DEMO: Localisation désactivée, merci de l\'activer depuis les paramètres.</string>
+    <string name="nogoogle">MODE DEMO: Les services Google ne semblent pas installés sur ce téléphone.</string>
+    <string name="noGPS">No GPS found</string>
+    <string name="action_fav">Favori</string>
+    <string name="add_fav">Créer un favori</string>
+    <string name="noInternet">No Internet, data displayed from memory</string>
+    <string name="tuto_fav">Pour créer un favori, il suffit de cliquer sur la petite étoile dans le détail de votre bus favori!</string>
+    <string name="encours">En cours de développement.</string>
+    <string name="serverIssue">Problèmes serrveurs. Soyez patients pendant la phase de test</string>
+    <string name="pick_route">Sélectionnez votre route</string>
+    <string name="prefcatdivers">A propos</string>
+    <string name="prefPlusSum">Vos idées, suggestions, retours sont les bienvenus!</string>
+    <string name="prefPlusTitle">Contacter le développeur.</string>
+    <string name="prefTecTitle">Label TEC</string>
+    <string name="prefTecSum">Cette application est en cours de validation officielle par la TEC. Plus d\'infos sur infotec.be.</string>
+    <string name="notToday">Plus de bus aujourd\'hui</string>
+    <string name="section_search">Recherche</string>
+
+    <string name="chose_bus">Quel bus allez vous prendre?</string>
+    <string name="cancel">Annuler</string>
+    <string name="action_settings">Préférences</string>
+</resources>

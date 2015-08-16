@@ -1,0 +1,5 @@
+<transition
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    class="com.wazabe.bebus.utils.RevealTransition"
+    app:color="@android:color/holo_green_dark"/>

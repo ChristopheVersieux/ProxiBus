@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reply_choices">
+        <item>John</item>
+        <item>Peter</item>
+        <item>Charles</item>
+    </string-array>
+</resources>

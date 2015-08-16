@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="Utiliser iRail comme source"
+        android:defaultValue="false"
+        android:summary="Non coché: NextRide."
+        android:key="irail" />
+
+    <PreferenceCategory
+        android:title="@string/prefcatdivers">
+
+        <PreferenceScreen
+            android:summary="@string/prefPlusSum"
+            android:title="@string/prefPlusTitle"
+            android:icon="@drawable/wazawhite">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/108315424589085456181/about" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/prefTecSum"
+            android:title="@string/prefTecTitle"
+            android:icon="@drawable/tec">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.infotec.be" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

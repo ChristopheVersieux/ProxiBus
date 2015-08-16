@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorPlannerPrimary">#673AB7</color>
+    <color name="colorPlannerPrimaryDark">#512DA8</color>
+    <color name="colorFavPrimary">#607D8B</color>
+    <color name="colorFavPrimaryDark">#455A64</color>
+
+    <color name="greyText">#6C6C6C</color>
+
+    <color name="bg">#ffe3e3e3</color>
+
+    <color name="fabPrimary">#009688</color>
+    <color name="fabPressed">#455A64</color>
+    <color name="fabRipple">#212121</color>
+</resources>

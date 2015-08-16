@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/background"
+        android:drawable="@drawable/train"/>
+
+    <!--item
+        android:id="@+id/rails"
+        android:drawable="@drawable/animated_rails"/-->
+
+</layer-list>

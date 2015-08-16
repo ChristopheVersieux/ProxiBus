@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hmkcode.mongoz.MainActivity" >
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+        <item
+            android:id="@+id/navigation_item_close"
+            android:icon="@drawable/ic_drawer_bus"
+            android:title="@string/section_around"/>
+        <item
+            android:id="@+id/navigation_item_search"
+            android:icon="@drawable/ic_drawer_search"
+            android:title="@string/section_search"/>
+
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/grp2"
+        android:title="POPOPO">
+
+        <item
+            android:id="@+id/navigation_item_planner"
+            android:icon="@drawable/ic_drawer_direction"
+            android:title="@string/section_planner"/>
+        <item
+            android:id="@+id/navigation_item_fav"
+            android:icon="@drawable/ic_drawer_fav"
+            android:title="@string/section_fav"/>
+    </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/navigation_item_settings"
+            android:icon="@drawable/ic_drawer_settings"
+            android:title="@string/action_settings"/>
+    </group>
+
+</menu>
