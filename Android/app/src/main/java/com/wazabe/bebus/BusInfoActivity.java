@@ -140,7 +140,11 @@ public class BusInfoActivity extends AppCompatActivity {
             findViewById(R.id.recyclerview2).setVisibility(View.GONE);
             findViewById(R.id.countdown2).setVisibility(View.GONE);
         } else {
-            stop_id=query;
+            setContentView(R.layout.activity_encours);
+            setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            setTitle(R.string.encourstitle);
+            /*stop_id=query;
             Log.e("CVE", "http://" + OverviewFragment.SRV_IRAIL + "/stops/" + stop_id + ".json");
 
             final String cache = PreferenceManager.getDefaultSharedPreferences(this).getString(stop_id, "");
@@ -160,7 +164,7 @@ public class BusInfoActivity extends AppCompatActivity {
                                      }
                         );
             else
-                setupStop(cache);
+                setupStop(cache);*/
 
             /*direction ="0";
             doMySearch(query,0);
@@ -239,7 +243,7 @@ public class BusInfoActivity extends AppCompatActivity {
             else
             {
                //TODO: better user feedback
-               finish();
+              // finish();
             }
         }
     }

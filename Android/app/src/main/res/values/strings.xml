@@ -28,4 +28,6 @@
     <string name="action_settings">Préférences</string>
     <string name="noMap">Google Maps n\'est pas installé</string>
     <string name="ok">OK</string>
+    <string name="patient">Cette fonction n\'est pas encore disponible.\n\nNous travaillons pour la rendre disponible dès que possible. N\'oubliez pas de suivre les mises à jour dans le Play Store</string>
+    <string name="encourstitle">En cours de développement</string>
 </resources>
