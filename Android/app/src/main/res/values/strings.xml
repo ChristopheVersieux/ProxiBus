@@ -26,4 +26,6 @@
     <string name="chose_bus">Quel bus allez vous prendre?</string>
     <string name="cancel">Annuler</string>
     <string name="action_settings">Préférences</string>
+    <string name="noMap">Google Maps n\'est pas installé</string>
+    <string name="ok">OK</string>
 </resources>
