@@ -33,8 +33,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:22.2.0'
     compile 'com.android.support:design:22.2.0'
     compile 'com.google.android.gms:play-services:6.5.87'
-
-    compile 'com.github.clans:fab:1.5.3'
+    compile 'com.github.clans:fab:1.5.5'
     compile 'com.koushikdutta.ion:ion:2.+'
     compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
     compile 'com.github.kanytu:android-parallax-recyclerview:v1.2'

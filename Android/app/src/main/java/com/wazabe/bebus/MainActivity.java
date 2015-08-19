@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_launcher);
 
 
         mGoogleApiClient = new GoogleApiClient.Builder(this)
@@ -109,8 +109,8 @@ public class MainActivity extends AppCompatActivity {
         transaction.replace(R.id.content_frame, new OverviewFragment());
         transaction.commit();
 
-        if (PreferenceManager.getDefaultSharedPreferences(MainActivity.this).getBoolean("openDrawer", true))
-            drawerLayout.openDrawer(GravityCompat.START);
+        //if (PreferenceManager.getDefaultSharedPreferences(MainActivity.this).getBoolean("openDrawer", true))
+        //    drawerLayout.openDrawer(GravityCompat.START);
 
     }
 
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         switch (item.getItemId()) {
             case android.R.id.home:
-                drawerLayout.openDrawer(GravityCompat.START);
+               // drawerLayout.openDrawer(GravityCompat.START);
         }
         return super.onOptionsItemSelected(item);
     }

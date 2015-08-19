@@ -195,7 +195,8 @@ public class OverviewFragment extends Fragment implements
     @Override
     public void onPause() {
         super.onPause();  // Always call the superclass method first
-        fabMenu.close(true);
+
+        //fabMenu.close(true);
     }
 
     @Override

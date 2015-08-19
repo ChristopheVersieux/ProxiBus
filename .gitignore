@@ -1,0 +1,9 @@
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+*.iml
+*.iml
+Android/tecwatch/tecwatch.iml
+Android/app/app.iml
